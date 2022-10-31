@@ -506,8 +506,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,2166,2041);
 p.nominalBounds = new cjs.Rectangle(0,0,623,7000);
 
 
-(lib._double = function() {
-	this.initialize(img._double);
+(lib.double = function() {
+	this.initialize(img.double);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3556,2108);
 
@@ -3451,7 +3451,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.bluedark();
 	this.instance_1.setTransform(-5,-14,0.2196,0.1913);
 
-	this.instance_2 = new lib._double();
+	this.instance_2 = new lib.double();
 	this.instance_2.setTransform(-22,-43,0.2242,0.2102);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},4).to({state:[{t:this.instance_2}]},5).wait(6));
@@ -5491,7 +5491,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.bluedark();
 	this.instance.setTransform(-16,-2,0.2196,0.1913);
 
-	this.instance_1 = new lib._double();
+	this.instance_1 = new lib.double();
 	this.instance_1.setTransform(-32,-30,0.2242,0.2102);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.movieClip_3}]}).to({state:[{t:this.instance}]},6).to({state:[{t:this.instance_1}]},6).to({state:[]},7).wait(1));
@@ -8851,7 +8851,7 @@ lib.properties = {
 		{src:"images/bluelight.png", id:"bluelight"},
 		{src:"images/colon.png", id:"colon"},
 		{src:"images/dna3.png", id:"dna3"},
-		{src:"images/_double.png", id:"_double"},
+		{src:"images/double.png", id:"double"},
 		{src:"images/epcamtitle.png", id:"epcamtitle"},
 		{src:"images/femalebody.png", id:"femalebody"},
 		{src:"images/mlh1.png", id:"mlh1"},
